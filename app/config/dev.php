@@ -14,7 +14,7 @@ return[
 				'username'=>'root',
 				'password' =>'',
 				'charset' => 'utf8',
-				'collection' => 'utf_unicode_ci',
+				'collection' => 'utf8_unicode_ci',
 				'prefix' => ''
 		],
 		'auth' =>[
@@ -22,13 +22,9 @@ return[
 			'remember'=>'user_r'
 		],
 		'mail' =>[
-			'smtp_auth' => true,
-			'smtp_secure' =>"tls",
-			'host' => 'smtp.mailchimp.com',
-			'username'=>'gade.rohitreddy@gmail.com',
-			'password' =>'Rohit_1996',
-			'port' => 587,
-			'html' => true
+			'secret' => 'key-eacb0b518f366138407ad40b16f40ac3',
+			'domain' => 'sandbox5d1b7759b01147418d1db74a88a2c79b',
+			'from'   => 'noreplay@localhost'
 		],
 		'twig' => [
 					'debug' => true

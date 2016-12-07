@@ -21,4 +21,11 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
  							'remember_identifier',
  							'remember_token'
  	]; 
+ 	public function getsruid()
+ 	{
+ 		if (!$this->sru_id) {
+ 			return false;
+ 		}
+ 		return $this->sru_id;
+ 	}
  } ?>

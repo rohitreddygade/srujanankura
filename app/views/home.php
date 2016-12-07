@@ -2,7 +2,6 @@
 {% block title %} 
 Home Page
 {%endblock%}
-
 {% block content %}
-this is home page
+<h1>This is Home Page</h1>
 {% endblock %}
